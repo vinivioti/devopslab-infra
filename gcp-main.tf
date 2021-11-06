@@ -19,4 +19,9 @@ resource "google_compute_instance" "firstvm" {
     // A presença do bloco access_config, mesmo sem argumentos, garante que a instância estará acessível pela internet.
     }
   }
+  # App Engine
+  resource "google_app_engine_application" "app" {
+    project     = "labdevopscloudt03"
+    location_id = "us-central"
+   }
 }
