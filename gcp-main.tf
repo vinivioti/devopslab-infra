@@ -3,4 +3,4 @@
     project     = "lab-devops-cloud-330320"
     location_id = "us-central"
    }
-}
+
